@@ -13,7 +13,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"https://crudproductslist.vercel.app/"})
 public class ProductController {
     @Autowired
     ProductService productService;
